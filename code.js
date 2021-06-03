@@ -4,6 +4,16 @@ function helloWorld() {
 }
 
 function sayHello(input){
-    return "Hello, " + input + "!"
+
+
+
+    if (typeof input === "string" && isNaN(input)) {
+            return "Hello, " + input + "!"
+
+    }
+    return "Hello, World!";
+
+
+
 }
 
